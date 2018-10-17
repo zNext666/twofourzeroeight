@@ -260,5 +260,27 @@ namespace twozerofoureight
             board = Random(board);
             NotifyAll();
         }
+
+        public int GetScore()
+        {
+            int Scores = 0;
+            foreach(int num in GetBoard())
+            {
+                Scores += num;
+            }
+            return Scores;
+        }
+        public bool GameOver()
+        {
+            bool isGameOver = false;
+            foreach(int num in GetBoard())
+            {
+                if(num == 2048)
+                {
+                    isGameOver = true;
+                }
+            }
+            return isGameOver;
+        }
     }
 }
