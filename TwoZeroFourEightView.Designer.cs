@@ -321,9 +321,9 @@
             this.GameStats.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GameStats.Location = new System.Drawing.Point(66, 338);
             this.GameStats.Name = "GameStats";
-            this.GameStats.Size = new System.Drawing.Size(200, 39);
+            this.GameStats.Size = new System.Drawing.Size(103, 39);
             this.GameStats.TabIndex = 21;
-            this.GameStats.Text = "GameOver!";
+            this.GameStats.Text = "Start!";
             // 
             // TwoZeroFourEightView
             // 

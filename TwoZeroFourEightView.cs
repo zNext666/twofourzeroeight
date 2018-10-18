@@ -220,7 +220,7 @@ namespace twozerofoureight
 
         private void btnLeft_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
         {
-            TwoZeroFourEightView_PreviewKeyDown(sender, e
+            TwoZeroFourEightView_PreviewKeyDown(sender, e);
         }
 
         private void btnUp_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
